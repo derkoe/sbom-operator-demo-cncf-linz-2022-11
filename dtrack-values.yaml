@@ -1,0 +1,5 @@
+frontend:
+  replicaCount: 1
+  env:
+    - name: API_BASE_URL
+      value: http://localhost:8081

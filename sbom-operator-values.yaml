@@ -1,0 +1,8 @@
+args:
+  targets: dtrack
+  format: cyclonedx
+  dtrack-base-url: http://dtrack-dependency-track-apiserver.dtrack.svc.cluster.local
+  dtrack-api-key: <GET API KEY FROM DTRACK> 
+  verbosity: debug
+  cron: "0 * * * * *"
+  # ignore-annotations: true
